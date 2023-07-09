@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css "href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"></script>
+</head>
+<body>
+    <div class="tilt">
+        <div class="share">
+            <i class="ri-share-fill"></i>
+        </div>
+        <h1>Tanveer Kaur</h1>
+        <p>UI/UX Designer</p>
+        <div class="tilt_bg one"></div>
+        <div class="info">
+           
+            <div class="info__icon">
+                <i class="ri-information-line"></i>
+            </div>
+
+            <div class="info__border">
+                <div class="info__perfil">
+                    <img src="tanveer.jpg" alt="card image" class="info__img">
+                </div>
+            </div>
+
+            <div class="info__data">
+                <h3 class="info__name">Tanveer Kaur</h3>
+                <span class="info__profession">Experienced & Innovative UI/UX Designer<br>Passionate about crafting user-centric designs that elevate business..</span>
+                <span class="info__location">Contact : +91XXXX999000<br><i>AMRITSAR</i> </span>
+            </div>
+
+            <div class="info__social">
+                <a href="https://www.linkedin.com/in/tanveerk29" target="_blank" class="info__social-link">
+                    <span class="info__social-icon">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </span>
+                </a>
+
+                <a href="https://instagram.com/tanveerkaur_29" target="_blank" class="info__social-link">
+                    <span class="info__social-icon">
+                        <i class="ri-instagram-fill"></i>
+                    </span>
+                </a>
+
+                <a href="https://github.com/tkaur29" target="_blank" class="info__social-link">
+                    <span class="info__social-icon">
+                        <i class="ri-github-fill"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="hire">
+            <a href="https://api.whatsapp.com" >HIRE ME</p>
+        </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <i class="ri-arrow-down-double-fill"></i>
+    </div>
+
+<script>
+    $('.tilt').tilt({
+        maxTilt: 20,
+        perspective: 1000,
+        easing: "cubic-bezier(.03,.98,.52,.99)",
+        scale: 1,
+        speed: 300,
+        transition: true,
+        disableAxis: null,
+        reset: true,
+        glare: false
+    });
+</script>
+</body>
+</html>
