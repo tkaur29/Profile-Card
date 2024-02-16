@@ -95,7 +95,7 @@ body{
 /*-----------------------------*/
 .info {
     position: absolute;
-    top: -1px;
+    top: 0px;
     left: 0;
     width: 100%;
     background-color:var(--white-color);
