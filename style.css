@@ -95,7 +95,7 @@ body{
 /*-----------------------------*/
 .info {
     position: absolute;
-    top: 0px;
+    top: -1px;
     left: 0;
     width: 100%;
     background-color:var(--white-color);
@@ -106,8 +106,8 @@ body{
   }
   .info__icon {
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 1.8rem;
+    right: 1.9rem;
     font-size: 1.5rem;
     color: #a34945;
     display: inline-flex;
