@@ -1,3 +1,4 @@
+@@ -1,248 +1,248 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500&display=swap');
 
 :root{
@@ -95,6 +96,7 @@ body{
 /*-----------------------------*/
 .info {
     position: absolute;
+    top: 0px;
     top: -1px;
     left: 0;
     width: 100%;
@@ -106,6 +108,8 @@ body{
   }
   .info__icon {
     position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
     top: 1.8rem;
     right: 1.9rem;
     font-size: 1.5rem;
@@ -125,7 +129,7 @@ body{
     /* padding: 0.25rem; */
     cursor: pointer;
     /* z-index: 10; */
-  
+
   }
   .info__img {
     width: 4.1em;
@@ -209,7 +213,7 @@ body{
     color: var(--white-color);
     font-size: 1.2rem;
   }
-  
+
   /* Card info animation */
   .info:hover {
     clip-path: circle(75%);
@@ -220,7 +224,7 @@ body{
   .info:hover .info__border, .info:hover .info__data, .info:hover .info__social {
     transform: translateX(0);
   }
-  
+
 
   .hire a{
     box-sizing: border-box;
@@ -244,5 +248,5 @@ body{
     background-color: #d4c792;
     color: #692825;
     font-weight: bold;
-   
+
   }
